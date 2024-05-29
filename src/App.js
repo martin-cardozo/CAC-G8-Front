@@ -8,6 +8,7 @@ import SignUp from './components/Signup/SignUp';
 import Catalogue from './components/Catalogue/Catalogue';
 import Contact from './components/Contact/Contact';
 import FAQ from './components/FAQ/FAQ';
+import CatalogueAPI from './components/CatalogueAPI/CatalogueAPI';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/catalogue" element={<Catalogue />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/faq" element={<FAQ />} />
+          <Route path="/catalogueAPI" element={<CatalogueAPI />} />
         </Routes>
         <Footer />
     </div>

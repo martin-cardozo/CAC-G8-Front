@@ -52,4 +52,10 @@
     color: #727272;
     text-decoration: underline; 
 }
+
+.mensajeError {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
   

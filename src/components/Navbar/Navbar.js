@@ -24,6 +24,9 @@ function Navbar() {
                     <a className="nav-link" onClick={() => navigate('/catalogue')}>CATALOGO</a>
                 </li>
                 <li className="nav-item">
+                    <a className="nav-link" onClick={() => navigate('/catalogueAPI')}>CATALOGO API</a>
+                </li>
+                <li className="nav-item">
                     <a className="nav-link" onClick={() => navigate('/faq')}>PREGUNTAS FRECUENTES</a>
                 </li>
                 <li className="nav-item">
